@@ -14,9 +14,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-    </nav>
-    <hr>
-    <h2>Listado em: </h2>
+    </nav> 
     <style>
         .card {
         margin: 0 auto; /* Added */
@@ -24,6 +22,12 @@
         margin-bottom: 10px; /* Added */
         }
     </style>
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="container mt-4 align-self-center">
+                    <h2>Listado: </h2>
+                    <hr>
 <?php
 $bl = array(
 "bl.mailspike.net",
