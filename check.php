@@ -28,8 +28,14 @@ for($i = 0; $i <= 17; $i++){
    $com = $reverse.'.'.$bl[$i];
    $resp = @dns_get_record($com, DNS_A);
    if($resp[0][ip] == '127.0.0.1' || $resp[0][ip] == '127.0.0.2'){
-    	echo "Listado: ".$bl[$i];
-        echo "<br>";
+        ?>
+        <div class="card text-center" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Listado na <?php echo $bl[$i];?></h5>
+                <a href="<?php echo $bl[$i]; ?>" class="btn btn-primary">Solicitar Delist</a>
+            </div>
+        </div>
+        <?php
    }
 }
 
