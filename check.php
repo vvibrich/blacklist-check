@@ -26,7 +26,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="container mt-4 align-self-center">
-                    <h2>Listado: </h2>
+                    <h2 style="text-align: center">Listado</h2>
                     <hr>
 <?php
 $bl = array(
