@@ -34,12 +34,6 @@
                 </div>
             </div>
 
-
-
-
-    <form action="check.php" method="post">
-  IP: <input type="text" name="ip" placeholder="Digite o IP">
-  <input type="submit" value="Submit">
 </form>
 </body>
 </html>
