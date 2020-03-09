@@ -30,8 +30,6 @@ for($i = 0; $i <= 17; $i++){
    if($resp[0][ip] == '127.0.0.1' || $resp[0][ip] == '127.0.0.2'){
     	echo "Listado: ".$bl[$i];
         echo "<br>";
-   }else{
-       echo "Não foi listado em nenhuma blacklist";
    }
 }
 
