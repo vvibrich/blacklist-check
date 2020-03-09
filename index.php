@@ -24,7 +24,7 @@
                             <form action="check.php" method="post">
                                 <div class="form-group">
                                     <label>IP: </label>
-                                    <input type="text" name="ip" class="form-control" placeholder="Digite o IP">
+                                    <input type="text" pattern="((^|\.)((25[0-5]_*)|(2[0-4]\d_*)|(1\d\d_*)|([1-9]?\d_*))){4}_*$" name="ip" class="form-control" placeholder="Digite o IP">
                                 </div>
                                 <button type="submit" class="btn btn-success">Verificar</button>
                                 <button type="reset" class="btn btn-danger">Limpar</button>
