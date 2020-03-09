@@ -9,12 +9,33 @@
 </head>
 <body>
  	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Blacklist Check</a>
+            <a class="navbar-brand center" href="#">Blacklist Check</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navig$
                 <span class="navbar-toggler-icon"></span>
             </button>
 
     </nav>
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="container mt-4 align-self-center">
+                            <h2>Verificar: </h2>
+                            <hr>
+                            <form action="check.php" method="post">
+                                <div class="form-group">
+                                    <label>IP: </label>
+                                    <input type="text" name="ip" class="form-control" placeholder="Digite o IP">
+                                </div>
+                                <button type="submit" class="btn btn-success">Verificar</button>
+                                <button type="reset" class="btn btn-danger">Limpar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
 
     <form action="check.php" method="post">
   IP: <input type="text" name="ip" placeholder="Digite o IP">
