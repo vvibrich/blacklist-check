@@ -9,7 +9,7 @@
 </head>
 <body>
     <nav class="navbar navbar-dark bg-dark justify-content-between">
-        <a class="navbar-brand">Blcklist Check</a>
+        <a class="">Blcklist Check</a>
     </nav>
     <form action="check.php" method="post">
 
