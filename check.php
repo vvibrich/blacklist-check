@@ -15,6 +15,13 @@
             </button>
 
     </nav>
+    <style>
+        .card {
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+        }
+    </style>
 <?php
 $bl = array(
 "bl.mailspike.net",
@@ -49,7 +56,7 @@ for($i = 0; $i <= 17; $i++){
         <div class="card text-center" style="width: 18rem;">
             <div class="card-body">
                 <h5 class="card-title">Listado na <?php echo $bl[$i];?></h5>
-                <a href="<?php echo $bl[$i]; ?>" class="btn btn-primary">Solicitar Delist</a>
+                <a href="<?php echo $bl[$i]; ?>" target="_blank" class="btn btn-primary">Solicitar Delist</a>
             </div>
         </div>
         <?php
