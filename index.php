@@ -8,8 +8,8 @@
     <title>Analisar Blacklist</title>
 </head>
 <body>
-    <nav class="navbar navbar-dark bg-dark justify-content-between">
-        <a class="">Blcklist Check</a>
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand">Blcklist Check</a>
     </nav>
     <form action="check.php" method="post">
 
